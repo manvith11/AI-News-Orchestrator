@@ -23,7 +23,7 @@ NEWSAPI_LANGUAGE = os.getenv("NEWSAPI_LANGUAGE", "en")
 NEWSAPI_SORT_BY = os.getenv("NEWSAPI_SORT_BY", "publishedAt")
 
 # Application Settings
-CACHE_ARTICLES = os.getenv("CACHE_ARTICLES", "true").lower() == "false"
+CACHE_ARTICLES = os.getenv("CACHE_ARTICLES", "true").lower() == "true"
 CACHE_DIR = os.getenv("CACHE_DIR", "data/cache")
 
 # Reputable sources for credibility scoring
